@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.3](https://github.com/Polymarket/rs-clob-client/compare/v0.3.2...v0.3.3) - 2026-01-05
+
+### Added
+
+- *(types)* re-export commonly used external types for API ergonomics ([#102](https://github.com/Polymarket/rs-clob-client/pull/102))
+
+### Other
+
+- *(ws)* common connection for clob ws and rtds ([#97](https://github.com/Polymarket/rs-clob-client/pull/97))
+- *(cargo)* bump tokio from 1.48.0 to 1.49.0 ([#104](https://github.com/Polymarket/rs-clob-client/pull/104))
+- *(examples)* improve approvals example with tracing ([#101](https://github.com/Polymarket/rs-clob-client/pull/101))
+- *(examples)* improve bridge example with tracing ([#100](https://github.com/Polymarket/rs-clob-client/pull/100))
+- *(examples)* improve rtds example with tracing and dynamic IDs ([#94](https://github.com/Polymarket/rs-clob-client/pull/94))
+- *(examples)* improve gamma example with tracing and dynamic IDs ([#93](https://github.com/Polymarket/rs-clob-client/pull/93))
+
 ## [0.3.2](https://github.com/Polymarket/rs-clob-client/compare/v0.3.1...v0.3.2) - 2026-01-04
 
 ### Added
